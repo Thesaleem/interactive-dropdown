@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Interactive Dropdown Navigation</title>
+</head>
+<body>
+    <header class="header">
+        <img src="./images/logo.svg" alt="Company's Logo" class="logo">
+        <div class="hamburger-menu">
+            <div class="hamburger-menu__btn"></div>
+        </div>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#" class="nav-link dropdown">Features
+                        <img src="./images/icon-arrow-down.svg" class="arrow-icon" alt="arrow dropdown icon">
+                    </a>
+                    <ul class="dropdown-list dropdown-list-one">
+                        <li class="dropdown-item">
+                            <a href="#" class="dropdown-link">
+                                <img src="./images/icon-todo.svg" 
+                                alt="todo list icon" 
+                                class="dropdown-icon">Todo List
+                            </a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a href="#" class="dropdown-link">
+                                <img src="./images/icon-calendar.svg" 
+                                alt="calendar icon" 
+                                class="dropdown-icon">Calendar
+                            </a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a href="#" class="dropdown-link">
+                                <img src="./images/icon-reminders.svg" 
+                                alt="reminder icon" 
+                                class="dropdown-icon">Reminder
+                            </a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a href="#" class="dropdown-link">
+                                <img src="./images/icon-planning.svg"
+                                 alt="planning icon" 
+                                 class="dropdown-icon">Planning
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link dropdown">Company
+                        <img src="./images/icon-arrow-down.svg" class="arrow-icon" alt="arrow dropdown icon">
+                    </a>
+                    <ul class="dropdown-list dropdown-list-two">
+                        <li class="dropdown-item">
+                            <a href="#" class="dropdown-link">History</a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a href="#" class="dropdown-link">Our Team</a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a href="#" class="dropdown-link">Blog</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Careers</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+            </ul>
+            <ul class="nav-list nav-list-reg">
+                <li class="nav-item"><a href="#" class="nav-link">Login</a></li>
+                <li class="nav-item"><a href="#" class="nav-link reg-btn">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="section-1">
+        <div class="section-con">
+            <div class="section-img">
+                <img src="./images/image-hero-desktop.png" class="desktop-img" alt="A guy doing remote work">
+                <img src="./images/image-hero-mobile.png" class="mobile-img" alt="A guy doing remote work">
+            </div>
+            <div class="section-text">
+                <h4>Make remote work</h4>
+                <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+                <div class="learn-btn__con">
+                    <button class="learn-btn">Learn more</button>
+                </div>
+                <div class="sponsors">
+                    <img src="./images/client-databiz.svg" alt="Databiz Logo" class="sponsor-logo sponsor-logo-1">
+                    <img src="./images/client-audiophile.svg" alt="Audiophile Logo" class="sponsor-logo sponsor-logo-2">
+                    <img src="./images/client-meet.svg" alt="Meet Logo" class="sponsor-logo sponsor-logo-3">
+                    <img src="./images/client-maker.svg" alt="Maker Logo" class="sponsor-logo sponsor-logo-4">
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="overlay hidden"></div>
+</body>
+</html>
