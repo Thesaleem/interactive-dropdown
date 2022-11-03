@@ -14,7 +14,6 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -55,7 +54,7 @@ To see how you can add code snippets, see below:
 ## Author
 
 - Frontend Mentor - [@TheSaleem](https://www.frontendmentor.io/profile/thesaleem)
-- Twitter - [@yTheSaleem_](https://www.twitter.com/thesaleem_)
+- Twitter - [@TheSaleem_](https://www.twitter.com/thesaleem_)
 
 
 ## Acknowledgments
